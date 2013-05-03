@@ -1,0 +1,6 @@
+Ready.
+about to route a request for /
+about to route a request for /content/Site.css
+route for css/fonts
+about to route a request for /content/font.eot
+route for css/fonts

@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'apropasskbold';
+    src: url('font.eot');
+    src: url('font.eot?#iefix') format('embedded-opentype'),
+         url('font.woff') format('woff'),
+         url('font.ttf') format('truetype'),
+         url('font.svg#apropasskbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body
+{
+	background-color: #fff;
+	color: #000;
+	font-size: .75em;
+	font-family: Arial, sans-serif;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+}
+
+h1
+{
+	color: #fff;
+	font-family: "apropasskbold";
+	font-size: 2.3em;
+	letter-spacing: .1em;
+	line-height: 1.2em;
+}
+
+h2
+{
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+}
+
+h3
+{
+	color: #fff;
+	font-size: 16px;
+	font-weight:bold;
+}
+
+h4
+{
+	color: #fff;
+	font-size: 16px;
+	font-weight:normal;
+}
+
+a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #fff;
+	text-decoration: underline;
+}
+
+img
+{
+	border: none;
+}
+
+p
+{
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.4em;	
+}
+
+p a
+{
+	color: #fff;
+	font-size: inherit;
+	font-weight: normal;
+	letter-spacing: normal;
+	text-decoration: none;
+}
+
+p a:hover
+{
+	color: #fff;
+	text-decoration: underline;
+}
+
+ul
+{
+	padding-left: 30px;
+}
+
+div#GlobalPage
+{	
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+div#contentWrapper
+{	
+	min-width: 1400px;
+	margin: 0 auto 0 auto;	
+	position: relative;
+	width: 1400px;
+}
+
+div#PageHeader
+{
+	float: left;
+	margin: 0 auto 0 auto;	
+	position: relative;
+	width: 255px;	     
+}
+
+div#PageHeader > img
+{
+	vertical-align: text-top;
+}
+
+div#contentBody
+{
+    background-color: #000;
+    color: #fff;
+    float:left;   
+    margin: auto 170px 35px 170px;
+    width: 1190px; 
+}
+
+div.contentBodyTextParent
+{
+    width: 609px;
+    float:left;
+    margin: auto auto 70px auto;
+}
+
+div.contentBodyText
+{    
+    margin: 0 35px auto 70px;
+    padding-top: 35px;
+    width: 500px;
+}
+
+div.ImageContainer > img
+{
+    float: left;
+    margin-bottom: 100px;
+    margin-top: 35px;
+}
+
+div#NavigationMenu
+{
+    float:right;
+    font-size: 12pt;
+    margin-right: 1010px;
+    margin-top: 10px;
+}
+
+div#NavigationMenu > a
+{
+    color: #000;
+    font-family: 'apropasskbold';
+}
+
+div.Static
+{
+    margin: 35px 35px 35px 35px;      
+    min-height: 700px;
+}
+
+div.Error
+{
+    margin: 100px 0px 0px 250px;
+    font-size: 17px;
+}

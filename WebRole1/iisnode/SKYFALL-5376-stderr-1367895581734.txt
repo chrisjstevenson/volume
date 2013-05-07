@@ -1,0 +1,5 @@
+Application has thrown an uncaught exception and is terminated:
+TypeError: Cannot call method 'toString' of undefined
+    at read (C:\node\Volume\WebRole1\router.js:83:26)
+    at fs.js:193:20
+    at Object.oncomplete (fs.js:93:15)

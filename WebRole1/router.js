@@ -19,6 +19,21 @@ function route(pathname, response){
 	    	});
 	    	break;
 
+	    case '/Contact':
+			//Write the header.
+	    	response.writeHead(200, { 'Content-Type': 'text/html' });
+
+	    	//Read index from filesystem.
+	    	fs.readFile('./templates/Contact.html', 'utf8', function read(error, data) {
+	    		if (error) {
+	    			throw error;
+	    		}
+
+	    		//console.log(data.toString());
+	    		response.end(data.toString());
+	    	});
+	    	break;
+
 	    default:  	
 
 	    	if (/\.(css)$/.test(pathname)){
@@ -55,26 +70,18 @@ function route(pathname, response){
 	    		break;
     		}
 
-    		fs.exists('./templates/' + pathname + '.html', function(exists){
+    		//Write the header.
+	    	response.writeHead(200, { 'Content-Type': 'text/html' });
 
-    			if(exists){
-    				//Write the header.
-	    			response.writeHead(200, { 'Content-Type': 'text/html' });
+	    	//Read index from filesystem.
+	    	fs.readFile('./templates/' + pathname + '.html', 'utf8', function read(error, data) {
+	    		if (error) {
+	    			send404(response);
+	    		}
 
-	    			//Read index from filesystem.
-	    			fs.readFile('./templates/' + pathname + '.html', 'utf8', function read(error, data) {
-	    				if (error) {
-	    					throw error;
-	    				}
-
-	    				//console.log(data.toString());
-	    				response.end(data.toString());
-	    			});
-	    	    }
-    			else{
-    				send404(response);    		
-    			}
-    		});    		
+	    		//console.log(data.toString());
+	    		response.end(data.toString());
+	    	});   	    
     	
     		break;
 	}

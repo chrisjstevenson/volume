@@ -1,5 +1,0 @@
-Ready.
-about to route a request for /
-about to route a request for /content/Site.css
-about to route a request for /content/font.eot
-about to route a request for /Information.html

@@ -1,2 +1,0 @@
-Application has thrown an uncaught exception and is terminated:
-Error: ENOENT, open 'C:\node\Volume\WebRole1\templates\Information.html.html'

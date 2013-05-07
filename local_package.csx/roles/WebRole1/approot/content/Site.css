@@ -114,10 +114,10 @@ div#contentWrapper
 
 div#PageHeader
 {
-	margin: 0 auto 0 auto;
-	min-width: 1400px;
+	float: left;
+	margin: 0 auto 0 auto;	
 	position: relative;
-	width: 1400px;	     
+	width: 255px;	     
 }
 
 div#PageHeader > img

@@ -1,0 +1,4 @@
+Application has thrown an uncaught exception and is terminated:
+ReferenceError: error is not defined
+    at C:\node\Volume\WebRole1\router.js:61:11
+    at Object.cb [as oncomplete] (fs.js:154:19)

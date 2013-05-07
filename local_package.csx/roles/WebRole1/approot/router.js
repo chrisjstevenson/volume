@@ -19,8 +19,8 @@ function route(pathname, response){
 	    	});
 	    	break;
 
-	    default:
-	    	console.log('route for css/fonts')
+	    default:  	
+
 	    	if (/\.(css)$/.test(pathname)){
 	    		response.writeHead(200, {'Content-Type': 'text/css'});
 	    			fs.readFile('./content/Site.css', 'utf8', function read(error, data) {
@@ -55,7 +55,27 @@ function route(pathname, response){
 	    		break;
     		}
 
-    		send404(response);
+
+    		fs.exists('./templates/' + pathname + '.html', function(exists){
+    			if(exists){
+    				//Write the header.
+	    			response.writeHead(200, { 'Content-Type': 'text/html' });
+
+	    			//Read index from filesystem.
+	    			fs.readFile('./templates/' + pathname + '.html', 'utf8', function read(error, data) {
+	    				if (error) {
+	    					throw error;
+	    				}
+
+	    				//console.log(data.toString());
+	    				response.end(data.toString());
+	    			});
+	    	    }
+    			else{
+    				send404(response);    		
+    			}
+    		});    		
+    	
     		break;
 	}
 

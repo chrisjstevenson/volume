@@ -1,0 +1,13 @@
+Fri May 03 2013 11:01:47 GMT-1100 (UTC-11):
+[Error: No publish settings file found. Please use "azure account import" first.]
+Error: No publish settings file found. Please use "azure account import" first.
+    at Command.readSubscriptions (C:\Users\Administrator\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\account.js:295:13)
+    at Command.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\account.js:56:35)
+    at Command.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\azure-cli\lib\cli.js:455:10)
+    at Command.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\azure-cli\node_modules\commander\lib\commander.js:235:8)
+    at Command.EventEmitter.emit (events.js:98:17)
+    at Command.parseArgs (C:\Users\Administrator\AppData\Roaming\npm\node_modules\azure-cli\node_modules\commander\lib\commander.js:405:12)
+    at Command.parse (C:\Users\Administrator\AppData\Roaming\npm\node_modules\azure-cli\node_modules\commander\lib\commander.js:351:15)
+    at Command.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\azure-cli\lib\cli.js:345:36)
+    at Command.EventEmitter.emit (events.js:95:17)
+    at Command.parseArgs (C:\Users\Administrator\AppData\Roaming\npm\node_modules\azure-cli\node_modules\commander\lib\commander.js:407:12)

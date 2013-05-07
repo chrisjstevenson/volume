@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="volumizr" generation="1" functional="0" release="0" Id="c11fc4ce-d42d-4e3a-af92-acedddc3381f" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="volumizr" generation="1" functional="0" release="0" Id="905c99c2-58c0-45e7-bc31-8338082f8c64" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="volumizrGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -59,9 +59,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="4d1bc52c-cea1-4d37-b8a1-9590dbbbd8b0" ref="Microsoft.RedDog.Contract\ServiceContract\volumizrContract@ServiceDefinition">
+    <implementation Id="846e170a-1c1e-4dc2-a02b-d86969b00a8b" ref="Microsoft.RedDog.Contract\ServiceContract\volumizrContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="04837e5d-2eae-4803-8cc3-4f691c877041" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="20a95f22-bed9-4e13-b061-9a1398519624" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/volumizr/volumizrGroup/WebRole1:Endpoint1" />
           </inPort>

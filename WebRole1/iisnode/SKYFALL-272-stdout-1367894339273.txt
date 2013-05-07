@@ -1,0 +1,6 @@
+Ready.
+about to route a request for /
+about to route a request for /content/Site.css
+about to route a request for /
+about to route a request for /content/Site.css
+about to route a request for /Contact

@@ -1,0 +1,5 @@
+Application has thrown an uncaught exception and is terminated:
+Error: true
+    at process.<anonymous> (C:\Program Files (x86)\iisnode-dev\release\x64\interceptor.js:202:110)
+    at process.EventEmitter.emit (events.js:95:17)
+    at process._fatalException (node.js:272:26)
